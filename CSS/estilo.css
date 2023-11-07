@@ -1,0 +1,19 @@
+#imagem
+{
+    position: relative;
+    margin-top: 10%;
+    -webkit-animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove
+{
+    from{left: 0px}
+    to{left: 750px;}
+}
+
+#mensagem
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 40px;
+    color: blue;
+}
