@@ -13,7 +13,7 @@
         $escolha = $_GET["opcao"];
         $valor = 0;
         $pagamento = 0;
-        include'MPDF60/mpdf.php';
+        include 'MPDF60/mpdf.php';
 
         if (!empty($produtos)) {
             $qtd = count($produtos);
